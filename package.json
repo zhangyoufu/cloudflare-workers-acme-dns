@@ -1,0 +1,17 @@
+{
+  "name": "cloudflare-workers-acme-dns",
+  "version": "1.0.0",
+  "description": "Stateless ACME DNS implementation using Cloudflare Workers",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "wrangler": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}

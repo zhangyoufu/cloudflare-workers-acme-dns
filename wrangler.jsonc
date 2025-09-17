@@ -1,0 +1,17 @@
+{
+  "name": "cloudflare-workers-acme-dns",
+  "compatibility_date": "2025-09-15",
+  "keep_vars": true,
+  "main": "index.js",
+  "observability": {
+    "logs": {
+      "enabled": true
+    }
+  },
+  "preview_urls": false,
+  "triggers": {
+    "crons": [
+      "14,29,44,59 * * * *",
+    ]
+  }
+}

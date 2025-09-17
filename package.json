@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "eslint": "^8.0.0",
-    "wrangler": "^3.0.0"
+    "wrangler": "^4.37.1"
   },
   "engines": {
     "node": ">=24"

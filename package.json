@@ -9,7 +9,7 @@
     "deploy": "wrangler deploy"
   },
   "devDependencies": {
-    "eslint": "^9.35.0",
+    "eslint": "^9.36.0",
     "wrangler": "^4.37.1"
   },
   "engines": {
